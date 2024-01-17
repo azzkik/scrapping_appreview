@@ -16,7 +16,7 @@ Terimakasih banyak kepada kelompok saya:
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://www.instagram.com/azkiyakmal/"><img src="https://github.com/azzkik/Sentiment_and_Factor_Analysis/tree/main/.vscode/1.png" width="100px;" alt="Muhammad Azkiya' Akmal"/><br /><sub><b>Muhammad Azkiya' Akmal</b></sub></a><br /></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://www.instagram.com/azkiyakmal/"><img src=".vscode/1.png" width="100px;" alt="Muhammad Azkiya' Akmal"/><br /><sub><b>Muhammad Azkiya' Akmal</b></sub></a><br /></td>
       <td align="center" valign="top" width="14.28%"><a href="https://www.instagram.com/larasatiramadhani/"><img src=".vscode/3.png" width="100px;" alt="Larasati Romadhani Yunita Putri"/><br /><sub><b>Larasati Romadhani Yunita Putri</b></sub></a><br /></td>
       <td align="center" valign="top" width="14.28%"><a href="https://www.instagram.com/lrssttt/"><img src=".vscode/2.png" width="100px;" alt="Larasati"/><br /><sub><b>Larasati</b></sub></a><br /></td>
       <td align="center" valign="top" width="14.28%"><a href="https://www.instagram.com/chelliinn/"><img src=".vscode/5.png" width="100px;" alt="Mirechelin Kristanaya"/><br /><sub><b>Mirechelin Kristanaya</b></sub></a><br /></td>
