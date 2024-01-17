@@ -1,10 +1,22 @@
-# Sentiment and Factor Analyze
-Pada Project kali ini kelompok saya melakukan analisis sentimen dan analisis faktor. Kelompok saya melakukan project ini sebagai tugas akhir dari mata kuliah analisis data exploratif. Kami mendapatkan dataset melalui survey yang kami lakukan menggunakan Google Form kepada mahasiswa agrotegnologi fakultas pertanian Universitas Pembangunan Nasional (UPN) Veteran Jawa Timur. Project yang kami lakukan adalah FINAL dan telah dikumpulkan untuk dinilai.
+# Scrapping app review
+Pada Project kali ini kelompok saya melakukan scrapping riview salah satu aplikasi yang berada di playstore. Aplikasi yang kami ambil sebagai contoh adalah chatGPT dengan ulasan berbahasa inggris. Kami menggunakan package Google Play Scrapper dengan menggunakan `pip install google-play-scraper` dan melakukan imort package dan eksekusinya sebagai berikut:
+```yaml
+from google_play_scraper import Sort, reviews_all
+
+scrapreview = reviews_all(
+    app_id='com.openai.chatgpt',  # ID aplikasi (terletak di akhir link)
+    lang='en',  # defaults to ‘en’ (untuk mengatur bahasa)
+    country='us',  # defaults to ‘us’ (region ulasan yg diambil)
+    sort=Sort.MOST_RELEVANT,  # defaults to Sort.MOST_RELEVANT
+    filter_score_with=None  # defaults to None (means all score) (bintang dari ulasan)
+)
+```
+Project kali ini bersifat Final dan telah dikumpulkan untuk dinilai.
 
 ## Laporan Project
 
 Untuk laporan dari project yang kelompok saya kerjakan bisa dilihat pada link berikut ini.
-[Laporan](https://laporanproj-azki.blogspot.com/2024/01/laporan-analisis-faktor-dan-analisis.html)
+[Laporan](https://laporanproj-azki.blogspot.com/2024/01/scrapping-ulasan-playstore-dengan.html)
 
 ## Contributors ✨
 
@@ -32,5 +44,4 @@ Terimakasih banyak kepada kelompok saya:
 
 ## Ucapan Terimakasih
 
-Kami berterimakasih kepada [farmrashel](https://github.com/famrashel/idn-tagged-corpus#readmemd-versi-bahasa) karena menyediakan kamus untuk melakukan postag dalam bahasa indonesia.
-Kemudian ucapan terimakasih juga kami ucapkan kepada [Dinda Anasta](https://www.kaggle.com/code/dindaanasta/analisis-sentimen-pengguna-aplikasi-sayurbox#Import-Library) karena telah memberikan refrensi sekaligus kamus untuk perbaikan typo dalam bahasa indonesia dan juga kamus analisis sentimen dalam bahasa indonesia menggunakan lexicon.
+Kami berterimakasih kepada [Nur Anisa Damayanti](https://medium.com/@nuranisad) untuk penjelasan mengenai Google Play Scrapper yang kami gunakan pada project kali ini. Untuk informasi penggunaan lebih lengkapnya dapat dilihat pada Github [JoMingyu](https://github.com/JoMingyu/google-play-scraper).
